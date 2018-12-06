@@ -1,0 +1,5 @@
+/.idea
+/.vscode
+/dist
+/public/js
+node_modules/

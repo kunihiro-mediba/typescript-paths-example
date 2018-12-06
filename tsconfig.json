@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["esnext", "dom"],
+    "rootDir": "./src",
+    "outDir": "./dist/node",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+        "*": ["./*", "../node_modules/*"],
+        "@root/*": ["./*"],
+        "@foo/*": ["./foo/*"],
+        "@bar/*": ["./foo/bar/*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules","./dist","./public"]
+}
