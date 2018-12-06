@@ -1,0 +1,1 @@
+# TypeScript paths example
